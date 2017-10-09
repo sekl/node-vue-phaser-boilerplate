@@ -46,11 +46,6 @@
       return {
         game: null
       }
-    },
-    watch (val) {
-      this.$nextTick(() => {
-        this.game.update()
-      })
     }
   }
 </script>
